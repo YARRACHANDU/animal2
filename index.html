@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Facts Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Animal Facts Explorer</h1>
+    <p>Click on an animal to see th facts!</p>
+  </header>
+  
+  <section id="animal-selection">
+    <button onclick="generateFacts('Tiger')">Tiger</button>
+    <button onclick="generateFacts('Elephant')">Elephant</button>
+    <button onclick="generateFacts('Penguin')">Penguin</button>
+    <button onclick="generateFacts('Dolphin')">Dolphin</button>
+  </section>
+  <img src="C:\Users\Chandu\OneDrive\Documents\Pictures\tiger.jpg" alt=" " >
+  <section id="animal-facts">
+    <h2>Facts about <span id="animal-name"></span></h2>
+    <div id="facts-container"></div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
